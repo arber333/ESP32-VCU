@@ -15,3 +15,8 @@ Or i can do it the FAILSAFE way; to command the heartbeat by that active BMS sig
 I have already implemented PP and CP signalling. Board also has PWM duty sensing pin which can be used to correct power as required from the EVSE.
 
 This version of VCU actually could also be used to run Leaf or Outlander inverter. It has the analog pins and correct inputs and outputs as well. So practicaly to run the car, L2 charger, BMS and chademo one would need like 3 or 4 of theese VCUs.
+
+12.01.2026 Updated design files for ESP32 VCU 
+VCU comes in two flavours. VCU 2.4 is designed around 2x CAN ports. It can be used to either drive the car or as a fast charging controler
+VCU 2.5 is meant for single CAN but it includes more PWM capable outputs
+See individual pdf files for the pinout
